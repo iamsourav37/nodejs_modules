@@ -10,5 +10,9 @@ const fs = require("fs");
 // fs.appendFileSync("students/names.txt", ", Ashim, Anish, Pritam");
 
 // reading
-const file_data = fs.readFileSync("students/names.txt", "utf-8");
-console.log(file_data);
+// const file_data = fs.readFileSync("students/names.txt", "utf-8");
+// console.log(file_data);
+
+// rename
+
+fs.renameSync("students/names.txt", "students/engineers_names.txt");
