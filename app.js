@@ -15,4 +15,11 @@ const fs = require("fs");
 
 // rename
 
-fs.renameSync("students/names.txt", "students/engineers_names.txt");
+// fs.renameSync("students/names.txt", "students/engineers_names.txt");
+
+// delete
+// fs.unlinkSync("students/engineers_names.txt");
+
+// delete folder
+
+fs.rmdirSync("students");
